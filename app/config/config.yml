@@ -71,14 +71,6 @@ swiftmailer:
 
 
 old_sound_rabbit_mq:
-    connections:
-        default:
-            host:     'ogre.latvia.intechsystems.lv'
-            port:     5672
-            user:     'veyron'
-            password: 'veyron1234'
-            vhost:    'veyron'
-            lazy:     false
     rpc_clients:
         requester:
             connection: default #default: default
