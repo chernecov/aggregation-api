@@ -2,19 +2,19 @@
 RabbitMQ based requests aggregator
 
 Config:
-
-old_sound_rabbit_mq:
-    connections:
-        default:
-            host:     'host'
-            port:     5672
-            user:     'user'
-            password: 'pass'
-            vhost:    'vhost'
-            lazy:     false
+-------
+    old_sound_rabbit_mq:
+        connections:
+            default:
+                host:     'host'
+                port:     5672
+                user:     'user'
+                password: 'pass'
+                vhost:    'vhost'
+                lazy:     false
 
 POST:
-
+-----
     {
       "requests": [
         {
